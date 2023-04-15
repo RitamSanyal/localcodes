@@ -5,9 +5,9 @@ public class ElectricBill{
   double bill;
   void accept(){
     Scanner sc = new Scanner (System.in);
-    System.out.print("Enter a name: ");
+    System.out.print("Enter a name : ");
     n=sc.nextLine();
-    System.out.print("Enter the unit: ");
+    System.out.print("Enter the unit : ");
     units=sc.nextInt();
     sc.close();
   }
@@ -25,9 +25,9 @@ public class ElectricBill{
     }
   }
   void print (){
-    System.out.println("Name of the customer: "+n);
-    System.out.println("Number of Units: "+units);
-    System.out.println("Bill amount: "+bill);
+    System.out.println("Name of the customer : "+n);
+    System.out.println("Number of Units : "+units);
+    System.out.println("Bill amount in INR : "+bill);
   }
 
   public static void main(String[] args) {

@@ -101,12 +101,12 @@ public class SimpleGame {
             case 1:
                 System.out.print("Enter seconds : ");
                 num=sc.nextInt();
-                System.out.println(sg.convertTime(num));
+                System.out.println("Converted time is in HH:MM:SS -> "+sg.convertTime(num));
                 break;
             case 2:
-                System.out.print("Enter the digit : ");
+                System.out.print("Enter the number : ");
                 num=sc.nextInt();
-                System.out.println(sg.digitsSum(num));
+                System.out.println("Sum of the digits in the number is : "+sg.digitsSum(num));
                 break;
             default:
                 System.out.println("Invalid Entry");
