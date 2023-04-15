@@ -64,5 +64,6 @@ public class rpc {
             System.out.println("Code terminated on user command");
         }
         sc.close();
+        
     }
 }
