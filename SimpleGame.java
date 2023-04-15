@@ -113,5 +113,6 @@ public class SimpleGame {
                 break;
         }
         sc.close();
+        
     }
 }
