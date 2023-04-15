@@ -4,6 +4,7 @@ public class infinite {
             int sum=(i+i);
             int mul=(i*i)^i;
             System.out.println("SUM is "+sum+" and multiplication is "+mul);
+            
         }
     }
 }
