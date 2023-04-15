@@ -9,6 +9,7 @@ public class ElectricBill{
     n=sc.nextLine();
     System.out.print("Enter the unit: ");
     units=sc.nextInt();
+    sc.close();
   }
   void calculate (){
     if(units<=100){

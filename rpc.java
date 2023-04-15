@@ -63,5 +63,6 @@ public class rpc {
         } else if (str.equalsIgnoreCase("EXIT")) {
             System.out.println("Code terminated on user command");
         }
+        sc.close();
     }
 }
