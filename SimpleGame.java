@@ -49,7 +49,7 @@ public class SimpleGame {
             s=(m-M)*60;
             S=(int)s;
             ds=(s-S)*1000;
-            System.out.println(ds);
+            // System.out.println(ds);
             if(ds>900)
                 S=S+1;
             hr=Integer.toString(H);
